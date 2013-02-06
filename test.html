@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/jquery.fittext.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #006;
+      color: #fff;
+      text-align: center;
+      font-family: 'Courier New', courier, fixed;
+      padding: 0;
+      margin: 0;
+    }
+    header {
+      margin: 32px auto;
+    }
+    h1 {
+      padding: 0;
+      margin:0;
+      color: #0ff;
+      font-family: 'Press Start 2P', 'Courier New', courier, fixed;
+      font-weight: normal;
+      -webkit-mask-image: url(images/scanlines.png);
+/*      -webkit-animation-name: scanlined;
+      -webkit-animation-duration: 5s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;*/
+      width: 100%;
+      display: block;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 1.5;
+      background-color: #000;
+      padding: 8px;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+
+    h3 {
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    @-webkit-keyframes scanlined {
+      0% { -webkit-mask-position-y: 256px; }
+      100% { -webkit-mask-position-y: 0px; }
+    }
+  </style>
+
+  <script>
+    $(document).ready(function(){
+      $('h1').fitText(0.8, {maxFontSize: '160px'});
+
+      setInterval(function() {
+        y = Math.random() * 512;
+        $('h1').css('-webkit-mask-position-y', y);
+      },100);
+    });
+  </script>
+</head>
+
+<body>
+
+<header>
+<h3>O2 and Geeks of London proudly present:</h3>
+<h1>HACKED</h1>
+<h2>6th/7th July 2013 - IndigO2 at The O2, London</h2>
+</header>
+
+</body>
+</html>
