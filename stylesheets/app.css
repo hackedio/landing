@@ -166,14 +166,16 @@ header{
   background-color: #FFFFFD;
 }
 
+.post-section{
+  margin-bottom: 5px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
 footer{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  background: #FFFFFF;
   clear: both;
-  background-color: #fff;
   padding-top: 1.5%;
   padding-bottom: 5%;
-
 }
 
 /* Sections */
