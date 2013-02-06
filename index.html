@@ -1,113 +1,30 @@
 <!doctype html>
-<html>
+<html class="no-js">
 <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>HACKED @ IndigO2</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Press+Start+2P" />
+  <link rel="stylesheet" href="stylesheets/main.css" />
   <script src="javascripts/jquery.js"></script>
   <script src="javascripts/jquery.fittext.js"></script>
-  <link href="http://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
-
-  <style>
-    html {
-      background-image: url(images/scan.png);
-      height: 100%;
-      width: 90%;
-      margin: 5%;
-      background-color: #00c;
-      padding: 0;
-    }
-    body {
-      background-color: #fff;
-      color: #00c;
-      height: 70%;
-      text-align: center;
-      font-family: 'Courier New', courier, fixed;
-      padding: 5%;
-      margin: 0;
-    }
-    header {
-      margin: 32px auto;
-    }
-    h1 {
-      padding: 0;
-      margin:0;
-      color: #c00;
-      font-family: 'Press Start 2P', 'Courier New', courier, fixed;
-      font-weight: normal;
-      width: 100%;
-      display: block;
-    }
-
-    h2 {
-      font-size: 36px;
-      line-height: 1.5;
-      background-color: #000;
-      padding: 8px;
-      color: #fff;
-      letter-spacing: 1px;
-    }
-
-    h3 {
-      letter-spacing: 1px;
-      font-size: 48px;
-    }
-
-    p {
-      font-weight: bold;
-      letter-spacing: 1px;
-      font-size: 32px;
-    }
-
-    .subscribe {
-      border: 20px #000 solid;
-      background-color: #0c0;
-      color: #000;
-      font-size: 24px;
-      line-height: 1.5;
-      width: 75%;
-      margin: 0 auto;
-      padding: 0;
-      font-family: 'Courier New', courier, fixed;
-      font-weight: bold;
-    }
-
-    .subscribe a {
-      padding: 32px 32px;
-      margin: 0;
-      display: block;
-      color: #000;
-      text-decoration: none;
-    }
-  </style>
-
-  <script>
-    $(document).ready(function(){
-      $('h1').fitText(0.8, {maxFontSize: '160px'});
-
-      loading = setInterval(function() {
-        y = Math.random() * 512;
-        $('html').css('background-position-y', y);
-      },100);
-
-      setTimeout(function() {
-        clearInterval(loading);
-        $('html').css('background-image', 'none');
-      }, 5000);
-    });
-  </script>
+  <script src="javascripts/modernizr.js"></script>
+  <script src="javascripts/main.js"></script>
 </head>
 
 <body>
+  <header>
+    <h3>O<sub>2</sub> and Geeks of London proudly present:</h3>
+    <h1>HACKED</h1>
+    <h2>6th/7th July 2013 - IndigO2 at The O2, London</h2>
+    <p>Two days of learning, sharing and building cool stuff.</p>
+  </header>
 
-<header>
-<h3>O<sub>2</sub> and Geeks of London proudly present:</h3>
-<h1>HACKED</h1>
-<h2>6th/7th July 2013 - IndigO2 at The O2, London</h2>
+  <div id="action">
+    <a href="http://eepurl.com/tI96r">&gt;&gt;&gt; Sign up for updates... &lt;&lt;&lt;</a>
+  </div>
 
-<p>Learn, share and build anything, in just 24 hours.</p>
-</header>
-
-<div class="subscribe">
-  <a href="http://eepurl.com/tI96r">&gt;&gt;&gt; Join our mailing list, and be one of the first to know more... &lt;&lt;&lt;</a>
-</div>
 
 </body>
 </html>
