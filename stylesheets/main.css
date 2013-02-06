@@ -532,18 +532,19 @@ html {
   padding: 0;
   width: 90%;
   height: 90%;
-  background-color: #c00;
-  background-image: url(../images/scan.png);
+  background-color: #0A365D;
 }
 
 body {
+  color: #00c;
+  font-family: 'Courier New', courier, fixed;
+}
+
+.container {
   margin: 0;
   padding: 5%;
-  min-height: 80%;
   background-color: #fff;
-  color: #00c;
   text-align: center;
-  font-family: 'Courier New', courier, fixed;
 }
 
 header {
@@ -551,15 +552,36 @@ header {
   margin: 32px auto;
 }
 
+footer {
+  display: block;
+  margin: 32px auto;
+  text-align: right;
+  color: #fff;
+}
+
 h1 {
   display: block;
-  margin:0;
-  padding: 0;
+  margin: 0 0 5% 0;
+  padding:0;
   width: 100%;
   color: #c00;
   font-weight: normal;
   font-size: 36px;
   font-family: 'Press Start 2P', 'Courier New', courier, fixed;
+}
+
+h1 sub {
+  display: block;
+  margin: 1% 10% 0 0;
+  color: #0090CF;
+  font-size: 22px;
+  font-family: 'Courier New', courier, fixed;
+  font-weight: bold;
+  text-align: right;
+}
+
+h1 sub a {
+  color: #0090CF;
 }
 
 h2 {
@@ -580,6 +602,13 @@ p {
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 24px;
+}
+
+li {
+  font-size: 22px;
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
 }
 
 /* Call to Action */
@@ -607,6 +636,12 @@ p {
   margin: 0;
   padding: 16px 24px;
   color: #000;
+}
+
+/*Footer*/
+
+footer a {
+  color: #0c0;
 }
 
 /* Mobile Overrides */
