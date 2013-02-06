@@ -165,12 +165,12 @@ header{
 
 footer{
   margin-top: 10px;
-  border-top: 5px solid #eeeeee;
+  margin-bottom: 10px;
   clear: both;
   background-color: #fff;
   padding-top: 1.5%;
   padding-bottom: 5%;
- 
+
 }
 /* Sections */
 
