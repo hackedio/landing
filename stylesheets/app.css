@@ -173,8 +173,8 @@ footer{
   padding-bottom: 5%;
 
 }
-/* Sections */
 
+/* Sections */
 
 .fig {
   font-family: Monospace;
@@ -204,15 +204,13 @@ footer{
 
 .post-content{
   color: #474646;
-  font-family: 'Open Sans',Helvetica,Arial,Helvetica,sans-serif;
   font-size: 14px;
   line-height: 25px;
 }
 
 footer p{
   color: #666666;
-  font-family: "Museo-500",Georgia,Times,Times New Roman,serif;
   font-size: small;
   line-height: 24px;
-  margin: 0;
+  margin-left: 230px; 
 }
