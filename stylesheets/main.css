@@ -542,6 +542,8 @@ html.front {
 body {
   color: #00c;
   font-family: 'Courier New', courier, fixed;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .container {
@@ -601,6 +603,7 @@ h2 {
 h3 {
   letter-spacing: 1px;
   font-size: 24px;
+  color: #c00;
 }
 
 p {
@@ -621,7 +624,6 @@ li {
   margin: 0 auto;
   padding: 0;
   width: 75%;
-  border: 20px #fff solid;
   font-weight: bold;
   font-size: 24px;
   font-family: 'Courier New', courier, fixed;
@@ -666,11 +668,11 @@ footer a {
 /*Magic classes*/
 
 .upside_down {
-  transform: rotate(180deg);
   -ms-transform: rotate(180deg); /* IE 9 */
   -webkit-transform: rotate(180deg); /* Safari and Chrome */
   -o-transform: rotate(180deg); /* Opera */
   -moz-transform: rotate(180deg); /* Firefox */
+  transform: rotate(180deg);
 }
 
 /* Mobile Overrides */
@@ -681,17 +683,21 @@ footer a {
     background-color: #fff;
     background-image: none;
   }
-  
+
   html.front {
     background-image: none;
   }
-  
+
 
   body {
     padding: 0;
     min-height: inherit;
   }
-  
+
+  .container {
+    padding: 0;
+  }
+
   h1 sub { font-size: 16px;}
   h2 {font-size: 20px;}
   h3 {font-size: 18px;}
@@ -708,7 +714,9 @@ footer a {
   #action a {
     color: #fff;
   }
-  
+
+  section.qa h3 { text-align: center; }
+
   footer {
     color: #000;
     font-size: 14px;
