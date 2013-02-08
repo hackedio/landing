@@ -541,7 +541,7 @@ html.front {
 
 body {
   color: #00c;
-  font-family: 'Courier New', courier, fixed;
+  font-family: Monaco, 'Courier New', courier, fixed;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -582,7 +582,7 @@ h1 sub {
   margin: 1% 10% 0 0;
   color: #0090CF;
   font-size: 22px;
-  font-family: 'Courier New', courier, fixed;
+  font-family: Monaco, 'Courier New', courier, fixed;
   font-weight: bold;
   text-align: right;
 }
@@ -607,9 +607,9 @@ h3 {
 }
 
 p {
-  letter-spacing: 1px;
   font-weight: bold;
   font-size: 24px;
+  line-height: 1.5;
 }
 
 li {
@@ -626,7 +626,6 @@ li {
   width: 75%;
   font-weight: bold;
   font-size: 24px;
-  font-family: 'Courier New', courier, fixed;
   line-height: 1.5;
 }
 
@@ -695,14 +694,14 @@ footer a {
   }
 
   .container {
-    padding: 0;
+    padding: 0 10px;
   }
 
   h1 sub { font-size: 16px;}
   h2 {font-size: 20px;}
   h3 {font-size: 18px;}
 
-  li { font-size: 16px; }
+  li { font-size: 14px; }
 
   #action {
     width: 100%;
